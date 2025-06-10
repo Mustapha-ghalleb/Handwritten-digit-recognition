@@ -14,7 +14,7 @@
 /**
   ******************************************************************************
   * @file           : bsp.h
-  * @brief          : Link to board resources
+  * @brief           : Link to board resources
   ******************************************************************************
   * This notice applies to any and all portions of this file
   * that are not between comment pairs USER CODE BEGIN and

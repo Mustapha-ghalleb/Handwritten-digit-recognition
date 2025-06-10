@@ -23,7 +23,7 @@
 #include "app_x-cube-ai.h"
 
 /* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
+/* USER CODE BEGIN Includes */ 
 #if defined(__GNUC__)
 #include <errno.h>
 #include <sys/unistd.h> /* STDOUT_FILENO, STDERR_FILENO */
