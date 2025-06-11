@@ -17,7 +17,7 @@ How to use:
   retrieved by the command "ipconfig", follow the steps in the link below:
   https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sysdm_advancd_environmnt_addchange_variable.mspx?mfr=true
 - run the ssl_server.exe you should see messages similar to:
-  
+   
   . Loading the server cert. and key... ok
   . Bind on https://<your_ip_address>:4433/ ... ok
   . Seeding the random number generator... ok
