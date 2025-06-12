@@ -1,7 +1,42 @@
-
 # 🤖 STM32 AI Handwritten Digit Recognition ✍️
 
+## 🧠 LSTM Model Training & Deployment
 
+This project features a **Long Short-Term Memory (LSTM) neural network** specifically trained for handwritten digit recognition and deployed on an STM32 microcontroller. The complete model development process, from data preprocessing to training optimization, is documented in our comprehensive Jupyter notebook.
+
+### 📊 Model Development Process
+
+The LSTM model was developed using a professional machine learning workflow:
+
+- **Architecture**: Optimized single-layer LSTM (64 units) designed for efficient inference on resource-constrained hardware
+- **Dataset**: MNIST handwritten digits with strategic sampling (20K training samples) for faster training
+- **Optimization**: Speed-optimized training configuration for development on slower hardware
+- **Performance**: Achieved 95%+ accuracy with minimal computational overhead
+- **Parameters**: ~70K parameters, <5MB memory usage - perfect for STM32 deployment
+
+### 📓 Complete Training Documentation
+
+**🔗 [View the complete LSTM training process in LSTM.ipynb](./LSTM.ipynb)**
+
+The notebook includes:
+- ✅ **Theoretical Background**: Detailed LSTM architecture explanation with mathematical formulations
+- ✅ **Data Analysis**: Comprehensive MNIST dataset exploration and visualization
+- ✅ **Model Architecture**: Professional model design optimized for STM32 deployment
+- ✅ **Training Process**: Efficient training with callbacks, early stopping, and performance monitoring
+- ✅ **Performance Evaluation**: Confusion matrices, per-class analysis, and confidence metrics
+- ✅ **Visualizations**: Professional plots showing training dynamics and prediction analysis
+- ✅ **STM32 Integration**: Model export and deployment considerations for embedded systems
+
+### 🚀 From Training to Deployment
+
+1. **Model Training**: LSTM trained using TensorFlow/Keras (see LSTM.ipynb)
+2. **Model Export**: Converted to STM32-compatible format using X-CUBE-AI
+3. **Hardware Integration**: Deployed on STM32F746G-DISCOVERY board
+4. **Real-time Inference**: Live digit recognition with touchscreen interface
+
+The trained model has been successfully integrated into this STM32 application, enabling real-time handwritten digit recognition directly on the microcontroller without requiring cloud connectivity.
+
+---
 
 > A real-time handwritten digit recognizer running entirely on an STM32 microcontroller. This project leverages ST's X-CUBE-AI to perform on-device inference of a neural network, classifying digits drawn on an LCD touchscreen.
 
@@ -149,4 +184,3 @@ Reset_Pred(&in_data, &first_guess, &second_guess);
     -   Press the on-screen **"CLEAR"** button to start over.
 
 
- 
