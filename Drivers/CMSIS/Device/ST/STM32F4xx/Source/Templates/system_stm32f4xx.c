@@ -9,7 +9,7 @@
   *      - SystemInit(): This function is called at startup just after reset and 
   *                      before branch to main program. This call is made inside
   *                      the "startup_stm32f4xx.s" file.
-  *
+  * 
   *      - SystemCoreClock variable: Contains the core clock (HCLK), it can be used
   *                                  by the user application to setup the SysTick 
   *                                  timer or configure other parameters.
