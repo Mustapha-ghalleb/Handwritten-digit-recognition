@@ -128,7 +128,7 @@ Reset_Pred(&in_data, &first_guess, &second_guess);
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://your-repository-url-here.git
+    git clone https://github.com/Mustapha-ghalleb/Handwritten-digit-recognition
     ```
 
 2.  **Open in STM32CubeIDE:**
