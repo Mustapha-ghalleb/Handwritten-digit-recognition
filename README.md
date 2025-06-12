@@ -2,7 +2,7 @@
 
 ## 🧠 LSTM Model Training & Deployment
 
-This project features a **Long Short-Term Memory (LSTM) neural network** specifically trained for handwritten digit recognition and deployed on an STM32 microcontroller. The complete model development process, from data preprocessing to training optimization, is documented in our comprehensive Jupyter notebook.
+This project features a **Long Short-Term Memory (LSTM) neural network** specifically trained for handwritten digit recognition and deployed on an STM32 microcontroller. The complete model development process, from data preprocessing to training optimization, is documented in my comprehensive Jupyter notebook.
 
 ### 📊 Model Development Process
 
